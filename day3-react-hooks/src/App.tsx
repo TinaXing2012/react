@@ -10,8 +10,25 @@ import ReducerHook from './useReducer-demo/ReducerHook';
 import UserComp from './useReducer-demo/UserComp';
 import UserReducerComp from './useReducer-demo/UserReducerComp';
 
+// function getUser() {
+//   const [count, setCount] = useState(0);
+// }
+
+
 export default function App() {
-  // const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(true);
+
+  // for (let i = 0; i < 10; i++) {
+  //   const [count, setCount] = useState(0);
+  // }
+
+  // if (toggle) {
+  //   const [count, setCount] = useState(0);
+  // }
+
+  // const handleToggle = () => {
+  //   const [count, setCount] = useState(0);
+  // }
 
   return (
     <div>
@@ -26,7 +43,7 @@ export default function App() {
       {/* <MemoHook /> */}
       {/* <ReducerHook /> */}
       {/* <UserComp /> */}
-      <UserReducerComp />
+      {/* <UserReducerComp /> */}
     </div>
   )
 }
