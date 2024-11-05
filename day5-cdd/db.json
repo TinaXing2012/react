@@ -1,0 +1,19 @@
+{
+    "list": [
+        {
+            "id": 1,
+            "name": "Learn JS",
+            "done": true
+        },
+        {
+            "id": 2,
+            "name": "Learn TypeScript",
+            "done": false
+        },
+        {
+            "id": 3,
+            "name": "Learn React",
+            "done": false
+        }
+    ]
+}
