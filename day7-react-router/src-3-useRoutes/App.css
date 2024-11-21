@@ -1,0 +1,15 @@
+.active {
+    background-color: yellow;
+}
+
+.highlighted {
+    background-color: red;
+}
+
+.pending {
+    background-color: purple;
+}
+
+.transitioning {
+    background-color: blue;
+}
